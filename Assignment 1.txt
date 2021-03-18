@@ -1,0 +1,19 @@
+Exercise
+
+create a python program - employee.py
+
+get the user name, user eeid,  user gender, joining date (using the input command)
+
+validate name to be str, eeid to be str, joining date should be a correct date format 
+and gender should be male, female or others
+
+Allow the user to make upto 3 mistakes for joining date field
+
+create a class of employee 
+
+create a function - gettenure() in the function - tenure number of years in the company 
+
+return back the tenure of an employee
+ 
+
+
