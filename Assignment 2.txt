@@ -1,0 +1,17 @@
+Assignment 2 - Pandas - When is my server busy? Mon, Tue, Wed / 1 PM, 2PM , 3 PM ...etc???
+
+Read the file - Server Request.csv
+
+Convert the datetime field which is currently in character to a python datetime column
+There is a function called pd.to_datetime() which will take a pandas column and convert to a 
+datetime column (it will automatically determine input format)
+
+Remove nulls in the data using pandas dropna() function
+
+Add 2 new columns - WeekDay (should have the format 1-Mon, 2-Tue), HourofDay column
+
+Pivot the resultant data based on WeekDay and HourofDay, values = serverrequests 
+and aggfunc='mean'
+
+
+use seaborn to plot the data 
